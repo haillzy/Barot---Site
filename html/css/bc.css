@@ -68,94 +68,16 @@ nav a {
     background-size: cover;
     background-position: center;
     border: 3px solid black;
-}
-
-.texto {
-    width: 40%;
-}
-
-.texto p {
-    font-size: 25px;
-    line-height: 38px;
-    margin-bottom: 20px;
-}body {
-    margin: 0;
-    padding: 0;
-    background: #3f0d3c;
-    color: white;
-    font-family: 'Patrick Hand', cursive;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    border-bottom: 2px solid gold;
-}
-
-.logo-area {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.logo-img {
-    width: 120px;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     overflow: hidden;
 }
 
-.logo-img img {
-    max-width: 90%;
-    max-height: 90%;
-    object-fit: contain;
-}
-
-h1 {
-    font-family: 'MedievalSharp', cursive;
-    font-size: 60px;
-    color: gold;
-}
-
-nav a {
-    font-family: 'Patrick Hand';
-    margin-left: 20px;
-    color: gold;
-    text-decoration: none;
-    font-size: 24px;
-}
-
-.titulo {
-    margin: 40px;
-    font-family: 'MedievalSharp';
-    font-size: 55px;
-    color: gold;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-}
-
-.bc{
-    width: 30%;
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-    border: 3px solid black;
-}
-
 .texto {
     width: 40%;
+    margin-top: 10px;
 }
 
 .texto p {
-    font-size: 25px;
-    line-height: 38px;
+    font-size: 40px;
+    line-height: 30px;
     margin-bottom: 20px;
 }
