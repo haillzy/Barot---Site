@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3F1435;
+    font-family: "Cinzel", serif;
+    color: #F4E29F;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #B58A3B;
+    box-sizing: border-box;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-img img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+header h1 {
+    font-size: 55px;
+    color: #F4E29F;
+}
+
+nav a {
+    color: #F4E29F;
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px black;
+}
+
+.menu {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.menu a {
+    margin-left: 25px;
+    color: #F4E29F;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #ffffff;
+}
+
+.section-title {
+    font-size: 55px;
+    margin-top: 40px;
+    text-align: center;
+    text-shadow: 0 0 4px black;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+.left-image {
+    width: 48%;
+    height: 420px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px black;
+}
+
+.left-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texto {
+    width: 48%;
+    font-size: 26px;
+    line-height: 1.5;
+    text-align: justify;
+}
