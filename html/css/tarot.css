@@ -1,56 +1,62 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #3F1435; 
-    font-family: 'Cinzel', serif;
+    background-color: #3F1435;
+    font-family: "Cinzel", serif;
     color: #F4E29F;
 }
 
-.header {
+h1, h2, h3 {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    padding: 20px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 40px;
     border-bottom: 3px solid #B58A3B;
+    box-sizing: border-box;
 }
 
-.logo {
-    width: 120px;
-    height: 120px;
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-img img {
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
-    background-size: cover;
-    background-position: center;
+    object-fit: cover;
 }
 
-.title {
-    flex: 1;
-    text-align: center;
-    font-size: 70px;
-    font-weight: bold;
-    color: #F4E29F;
-}
-
-.menu {
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.menu a {
-    margin-left: 25px;
-    color: #F4E29F;
-    text-decoration: none;
-}
-
-.menu a:hover {
-    color: #ffffff;
-}
-
-.section-title {
+header h1 {
     font-size: 55px;
-    margin-top: 40px;
-    text-align: center;
     color: #F4E29F;
-    text-shadow: 0 0 4px black;
+}
+
+nav a {
+    color: #F4E29F;
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px black;
 }
 
 .content {
