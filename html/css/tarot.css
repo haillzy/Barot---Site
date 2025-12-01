@@ -1,82 +1,76 @@
 body {
     margin: 0;
     padding: 0;
-    background: #3f0d3c;
-    color: white;
-    font-family: 'Patrick Hand', cursive;
+    background-color: #3F1435; 
+    font-family: 'Cinzel', serif;
+    color: #F4E29F;
 }
 
-header {
+.header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;
     padding: 20px 40px;
-    border-bottom: 2px solid gold;
+    border-bottom: 3px solid #B58A3B;
 }
 
-.logo-area {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.logo-img {
+.logo {
     width: 120px;
     height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
-.logo-img img {
-    max-width: 90%;
-    max-height: 90%;
-    object-fit: contain;
-}
-
-h1 {
-    font-family: 'MedievalSharp';
-    font-size: 60px;
-    color: gold;
-}
-
-nav a {
-    font-family: 'Patrick Hand';
-    margin-left: 25px;
-    color: gold;
-    text-decoration: none;
-    font-size: 25px;
-}
-
-.titulo {
-    margin: 40px;
-    font-family: 'MedievalSharp';
-    font-size: 55px;
-    color: gold;
-}
-
-.conteudo {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 0 40px 40px 40px;
-}
-
-.sacerdotisa{
-    width: 55%;
-    height: 450px;
+    border-radius: 50%;
     background-size: cover;
     background-position: center;
-    overflow: hidden;
+}
+
+.title {
+    flex: 1;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: #F4E29F;
+}
+
+.menu {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.menu a {
+    margin-left: 25px;
+    color: #F4E29F;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #ffffff;
+}
+
+.section-title {
+    font-size: 55px;
+    margin-top: 40px;
+    text-align: center;
+    color: #F4E29F;
+    text-shadow: 0 0 4px black;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+.img {
+    width: 48%;
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
 }
 
 .texto {
-    width: 30%;
-}
-
-.texto p {
-    font-size: 25px;
-    line-height: 38px;
-    margin-bottom: 25px;
+    width: 48%;
+    font-size: 26px;
+    line-height: 1.5;
+    text-align: justify;
 }
